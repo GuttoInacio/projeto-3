@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./assets/img/fundo.jpg");
+    backdrop-filter: blur(5px);
+    height: 100vh;
+}
+
+.titulos {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(134, 216, 248);
+    text-shadow: 0.5px 0.5px 10px;
+    
+}
+
+
+.imagePerson  {
+    width: 850px;
+    display: flex;
+    object-fit: cover;
+    filter: drop-shadow(10px 15px 10px rgb(255, 238, 0));
+    justify-content: flex-start;
+    }
+
+.txt1 {
+    color: aquamarine;
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    min-height: 550px;
+    
+}
+
+.txt1 div{
+    width: 40%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagePerson.chopper{
+    width: 500px;
+    height: 500px;
+    filter:drop-shadow(10px 15px 10px rgb(21, 133, 224))
+}
+
+.textoprincipal{
+    color: rgb(14, 218, 233);
+    
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 20% !important;
+    height: 550px !important;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center !important;
+    
+} 
+
+.textoprincipal section{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imagePerson.luffy{
+    width: 500px;
+    height: 500px;
+}
